@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Quitting Without An Offer In Hand
+title: Looking for New Work
 subtitle: Making the Leap Can Be Initimidating, But Worth It...I think!
-gh-repo: daattali/beautiful-jekyll
+gh-repo: michaelcgood/michaelgood.github.io
 gh-badge: [star, fork, follow]
 tags: [work]
 comments: true
