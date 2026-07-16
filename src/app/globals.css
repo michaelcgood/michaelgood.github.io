@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-black: #050505;
+  --color-cyber-gray: #121212;
+  --color-cyber-slate: #2f3640;
+  --color-terminal-green: #39ff14;
+  --color-neon-red: #ff3333;
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #8a8a8a;
+
+  --font-mono: var(--font-jetbrains-mono), "JetBrains Mono", "Fira Code", monospace;
+  --font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
+  --font-heading: var(--font-syncopate), "Syncopate", "Inter", sans-serif;
+
+  /* Disable all rounded corners to make it brutalist */
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  --radius-2xl: 0;
+  --radius-3xl: 0;
+  --radius-full: 0;
+}
+
+body {
+  @apply bg-cyber-black text-text-primary font-mono antialiased overflow-x-hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading uppercase tracking-tighter text-white;
+}
+
+/* Custom Glitch Animation Utilities */
+@keyframes glitch-anim {
+  0% { transform: translate(0) }
+  20% { transform: translate(-2px, 2px) }
+  40% { transform: translate(-2px, -2px) }
+  60% { transform: translate(2px, 2px) }
+  80% { transform: translate(2px, -2px) }
+  100% { transform: translate(0) }
+}
+
+.glitch-hover:hover {
+  animation: glitch-anim 0.3s cubic-bezier(.25, .46, .45, .94) both infinite;
+}
+
+/* Brutalist borders */
+.brutalist-border {
+  @apply border-2 border-cyber-slate hover:border-terminal-green transition-colors duration-200;
+}
