@@ -31,10 +31,15 @@ export default function HeroTerminal() {
           Down Special Labs is a tactical engineering group building physical hardware and software systems for the live localization of crowds.
         </p>
         
-        <button className="brutalist-border group relative inline-flex items-center gap-4 bg-cyber-black px-8 py-4 text-white font-heading font-bold uppercase tracking-widest hover:bg-terminal-green hover:text-cyber-black transition-all">
+        <a 
+          href="https://hardresetshow.com" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="brutalist-border group relative inline-flex items-center gap-4 bg-cyber-black px-8 py-4 text-white font-heading font-bold uppercase tracking-widest hover:bg-terminal-green hover:text-cyber-black transition-all"
+        >
           <span>Enter Hard Reset [Live MMO]</span>
           <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-        </button>
+        </a>
       </motion.div>
 
       {/* Decorative corners */}
