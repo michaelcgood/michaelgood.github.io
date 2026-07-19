@@ -15,7 +15,7 @@ const TIMELINE_DATA = [
     year: "2012 - 2022",
     title: "The Infrastructure Pivot",
     subtitle: "AOW Solutions / Cyber Security / Clearance",
-    description: "Founded 'AOW Solutions LLC' (Art of War) in Great Falls, an international tech agency managing offshore engineering teams. During this period, marked a return to music production with the release of the project 'DAMNED'. Simultaneously evolved into deep enterprise cyber security: engineering distributed systems and Identity Access Management (IAM) protocols for the Intelligence Community and the IRS. Maintained a DoD Top Secret Clearance while deploying full-stack security architecture at scale.",
+    description: "Founded 'AOW Solutions LLC', an international tech agency managing offshore engineering teams. During this period, marked a return to music production with the release of the project 'DAMNED'. Evolved into deep enterprise cyber security: engineering distributed systems and IAM protocols for the Intelligence Community and IRS (maintaining a DoD Top Secret Clearance). Concurrently founded the startup 'Raivana', raising capital and securing a US Patent (US20200410170A1) for translating natural language into logical access control policies.",
     icon: <ShieldCheck size={20} />,
   },
   {
