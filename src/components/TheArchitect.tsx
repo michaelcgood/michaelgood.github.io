@@ -20,10 +20,10 @@ export default function TheArchitect() {
           
           <div className="space-y-6 font-mono text-text-secondary leading-relaxed border-l-2 border-cyber-slate pl-6">
             <p>
-              Operating at the intersection of Identity Access Management (IAM), psychological systems design, and underground music production.
+              Operating at the intersection of Enterprise Cyber Security, distributed systems architecture, and underground music production. 
             </p>
             <p>
-              The mission is simple: Engineer decentralized unity. By fusing enterprise-grade software architecture with aggressive analog hardware and alternative/emo-rap aesthetics, we are building systems that force human connection in physical spaces.
+              With a background engineering for the Intelligence Community and holding a DoD Top Secret Clearance, the mission is simple: Engineer decentralized unity. By fusing high-level software architecture (Kubernetes, Java, Next.js) with aggressive analog hardware and alternative/emo-rap aesthetics, we are building systems that force human connection in physical spaces.
             </p>
             <p className="text-terminal-green">
               This is not a software company. This is a behavioral engineering lab.
@@ -48,7 +48,7 @@ export default function TheArchitect() {
               <div className="grid grid-cols-2 gap-4 text-left text-xs border-t border-cyber-slate pt-6">
                 <div>
                   <div className="text-cyber-slate mb-1">DOMAIN</div>
-                  <div className="text-text-primary">IAM / Next.js / Audio</div>
+                  <div className="text-text-primary">Cyber / Full-Stack / Audio</div>
                 </div>
                 <div>
                   <div className="text-cyber-slate mb-1">CLEARANCE</div>
